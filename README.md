@@ -1,12 +1,23 @@
-# React + Vite
+# 🩺 Personal Medical Insights from Lab Reports
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project helps users understand their medical lab reports by extracting and explaining test results in simple, layman-friendly language using AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Upload lab report PDFs
+- ✅ Extract test names, values, and units using OCR and PDF parsing
+- ✅ Use LLM to generate simple medical explanations for each test result
+- ✅ Clean and intuitive React frontend
+- ✅ FastAPI backend for processing and inference
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Backend**: FastAPI, Python
+- **AI/NLP**: OpenAI or similar LLM with prompt engineering
+- **PDF Parsing/OCR**: PyMuPDF (fitz), pdfplumber, or Tesseract
+- **Deployment**: Uvicorn (local)
