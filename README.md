@@ -18,6 +18,5 @@ This project helps users understand their medical lab reports by extracting and 
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: FastAPI, Python
-- **AI/NLP**: OpenAI or similar LLM with prompt engineering
 - **PDF Parsing/OCR**: PyMuPDF (fitz), pdfplumber, or Tesseract
 - **Deployment**: Uvicorn (local)
